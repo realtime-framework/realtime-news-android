@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="co.realtime.realtimenews.HomeActivity">
+    <item
+        android:id="@+id/badge"
+        android:title=""
+        android:visible="false"
+        app:actionLayout="@layout/action_bar_notification_icon"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/clearFilters"
+        android:title=""
+        app:actionLayout="@layout/action_bar_clear_filters_icon"
+        app:showAsAction="ifRoom">
+    </item>
+
+</menu>
